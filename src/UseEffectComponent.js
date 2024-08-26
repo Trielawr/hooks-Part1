@@ -23,7 +23,7 @@ const UseEffectComponent = () => {
     
     return (
         <div>
-            <h6>UseEffect section</h6>
+            <h6 className='section-header'>UseEffect section</h6>
             <p>{ value }</p>
             <ButtonComponent
                 className="btn"

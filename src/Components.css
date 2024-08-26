@@ -13,3 +13,9 @@
   text-align: left;
   text-wrap: wrap;  
 }
+
+.section-header {
+  color: brown;
+  font-size: large;
+  margin: 5px;
+}

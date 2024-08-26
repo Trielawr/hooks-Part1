@@ -26,7 +26,7 @@ const UseStateComponent = () => {
 
   return (
       <div>
-          <h6>UseState section</h6>
+          <h6 className='section-header'>UseState section</h6>
           <ButtonComponent
               type="button"
               className="btn"

@@ -25,7 +25,7 @@ const UseLayoutEffectComponent = () => {
 
   return (
     <div>
-      <h6>UseLayoutEffect section</h6>
+      <h6 className='section-header'>UseLayoutEffect section</h6>
       <label>Поле для введення абзацу</label>
       <textarea
         className='text'

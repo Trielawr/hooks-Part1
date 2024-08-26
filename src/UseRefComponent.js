@@ -12,7 +12,7 @@ const UseRefComponent = () => {
 
    return (
       <div>
-          <h6>UseRef section</h6>
+          <h6 className='section-header'>UseRef section</h6>
           <input
               type='text'
               placeholder='text'

@@ -37,7 +37,7 @@ const UseReducerComponent = () => {
     
   return (
     <div>
-      <h6>UseReduser section</h6>
+      <h6 className='section-header'>UseReduser section</h6>
       <ButtonComponent
         type="button"
         className="btn"

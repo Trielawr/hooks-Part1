@@ -4,6 +4,9 @@ import UseLayoutEffectComponent from './UseLayoutEffectComponent';
 import UseStateComponent from './UseStateComponent';
 import UseReducerComponent from './UseReducerComponent';
 import UseRefComponent from './UseRefComponent';
+import UseMemoComponent from './UseMemoComponent';
+import ReactMemoComponent from './ReactMemoComponent';
+import CustomHookComponent from './CustomHookComponent';
 
 function App() {
   return (
@@ -26,6 +29,15 @@ function App() {
         </section>
         <section className="main-section">
           <UseRefComponent/>
+        </section>
+        <section className="main-section">
+          <UseMemoComponent/>
+        </section>
+        <section className="main-section">
+          <ReactMemoComponent/>
+        </section>
+        <section className="main-section">
+          <CustomHookComponent/>
         </section>
       </main>
       <footer className="App-footer">
